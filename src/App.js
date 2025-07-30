@@ -5,7 +5,7 @@ import { PencilSquare, TrashFill, CheckLg, XLg } from 'react-bootstrap-icons';
 function App() {
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState('');
-  const [priority, setPriority] = useState('Low');aaabbccdd
+  const [priority, setPriority] = useState('Low');
   const [dueDate, setDueDate] = useState('');
   const [filter, setFilter] = useState('all');
   const [sort, setSort] = useState('');
